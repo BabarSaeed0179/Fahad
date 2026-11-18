@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Bavrix Digital Studio</title>
+  <desc id="logo-description">An original black and white faceted server core, paired with the Bavrix Digital Studio wordmark.</desc>
+
+  <defs>
+    <linearGradient id="core-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#D9D9D9"/>
+      <stop offset="1" stop-color="#AFAFAF"/>
+    </linearGradient>
+    <linearGradient id="core-left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#444444"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="core-right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#333333"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <filter id="core-shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feOffset dy="7" result="offset"/>
+      <feColorMatrix in="offset" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .18 0" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  
+  <path d="M49 177c-5-54 27-103 77-121" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <circle cx="119" cy="48" r="7" fill="#000000"/>
+
+  
+  <g filter="url(#core-shadow)">
+    <path d="m145 53 101 56-101 59-101-59 101-56Z" fill="url(#core-top)"/>
+    <path d="m44 109 101 59v114l-101-59V109Z" fill="url(#core-left)"/>
+    <path d="m145 168 101-59v114l-101 59V168Z" fill="url(#core-right)"/>
+
+    
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="5" opacity=".96">
+      <path d="m67 143 57 33m-57-7 57 33m-57-7 57 33"/>
+      <path d="m165 177 58-34m-58 62 58-34m-58 62 58-34"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="72" cy="143" r="4"/><circle cx="72" cy="171" r="4"/><circle cx="72" cy="199" r="4"/>
+      <circle cx="218" cy="144" r="4"/><circle cx="218" cy="172" r="4"/><circle cx="218" cy="200" r="4"/>
+    </g>
+  </g>
+
+  
+  <text x="330" y="160" fill="#000000" font-family="Trebuchet MS, Arial, sans-serif" font-size="118" font-weight="700" letter-spacing="-6">Bavrix</text>
+  <path d="M339 192h70" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+  <text x="339" y="258" fill="#111111" font-family="Trebuchet MS, Arial, sans-serif" font-size="54" font-weight="600" letter-spacing="3.2">DIGITAL STUDIO</text>
+</svg>
